@@ -1,0 +1,15 @@
+--readme README.md
+--title 'Features Packager'
+--charset utf-8
+--markup markdown
+--exclude /spec/
+--embed-mixin ClassMethods
+-
+lib/features/packager.rb
+lib/features/packager/version.rb
+lib/features/packager/helper.rb
+lib/features/packager/command.rb
+lib/features/packager/command/list.rb
+lib/features/packager/command/publish.rb
+lib/features/packager/command/clear.rb
+LICENSE

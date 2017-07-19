@@ -1,0 +1,19 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  TargetRubyVersion: 2.2
+
+Metrics/MethodLength:
+  Max: 15
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space
+
+Style/BarePercentLiterals:
+  EnforcedStyle: percent_q
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/ZeroLengthPredicate:
+  Enabled: false

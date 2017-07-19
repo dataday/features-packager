@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby -w
+
+require 'bundler/setup'
+require 'features/packager'
+require 'irb'
+
+IRB.start
