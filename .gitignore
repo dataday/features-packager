@@ -16,4 +16,8 @@ Gemfile.lock
 !/doc/.gitkeep
 /features/**
 !/features/.gitkeep
+/bin/**
+!/bin/features-packager
+!/bin/setup
+!/bin/console
 Gemfile.lock
